@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{url_for('static', filename='pagestyle.css')}}">
+    <link rel="stylesheet" href="pagestyle.css">
     <title>About Us - Web App</title>
 </head>
 
@@ -14,17 +14,17 @@
     <nav class="navbar">
         <ul>
             <li>
-                <a href="{{ url_for('home') }}" class="nav-item">Home</a>
+                <a href="index.html" class="nav-item">Home</a>
             </li>
             <li class="expandable">
                 <a href="#" class="nav-item">Warships   </a>
                 <ul class="sub-menu">
-                    <li><a href="{{ url_for('alsaceclass') }}" class="nav-item">Alsace class</a></li>
-                    <li><a href="{{ url_for('hclass') }}" class="nav-item">H-Class</a></li>
+                    <li><a href="alsaceclass.html" class="nav-item">Alsace class</a></li>
+                    <li><a href="hclass.html" class="nav-item">H-Class</a></li>
                 </ul>
             </li>
             <li>
-                <a href="{{ url_for('about') }}" class="active">About</a>
+                <a href="about.html" class="active">About</a>
             </li>
             <!-- Add more links as needed -->
         </ul>
