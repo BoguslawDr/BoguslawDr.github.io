@@ -182,18 +182,25 @@ body {
   
 }
   
-@media screen and (max-width: 600px) {
-  
-    .sidebar, .main {
-  
-      width: 100%;
-  
-      order: 1;
-  
-    }
-
-  
-}
+@media screen and (max-width: 768px) {
+  header {
+  padding: 10px;
+  }
+  header nav ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  }
+  header nav ul li {
+  margin-bottom: 10px;
+  }
+  .profile-img {
+  max-width: 150px;
+  }
+  .container {
+  padding-bottom: 100px;
+  }
+  }
 
 nav {
     background-color: #333;
